@@ -1,0 +1,80 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0 10px;
+}
+
+main {
+  min-height: 88%;
+}
+
+#splashscreen {
+  display: block;
+}
+
+#splashscreen a {
+  background-color: white;
+  color: black;
+  border: 2px solid #0275d8;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+#splashscreen a:hover {
+  background-color: #0275d8;
+  color: white;
+}
+
+#gamedifficulty {
+  display: none;
+}
+
+#gamedifficulty a {
+  background-color: white;
+  color: black;
+  border: 2px solid #0275d8;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+#gamedifficulty a:hover {
+  background-color: #0275d8;
+  color: white;
+}
+
+#gameheader {
+  display: none;
+}
+
+#resetButton {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: white;
+  color: black;
+  border: 2px solid #0275d8;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+#resetButton:hover {
+  background-color: #0275d8;
+  color: white;
+}
+
+footer {
+  text-align: right;
+}
